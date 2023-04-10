@@ -9,7 +9,7 @@ function introduce(first, last, years, goal) {
 
 function main() {
     message = introduce(firstName, lastName, yearsOfStudy, goal);
-    console.log(message);
+    document.write(message);
 }
 
 main();
