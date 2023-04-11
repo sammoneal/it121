@@ -8,7 +8,7 @@ function introduce(first, last, years, goal) {
 }
 
 function main() {
-    message = introduce(firstName, lastName, yearsOfStudy, goal);
+    const message = introduce(firstName, lastName, yearsOfStudy, goal);
     document.write(message);
 }
 
