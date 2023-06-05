@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <title>Chapter 5 Assignment - Multiplication</title>
+
+</head>
+
+<body>
+
+  <div id="write"></div>
+
+  <script>
+
+    function multiplication(value) {
+        //add html to target
+        target = document.getElementById('write');
+        //loop through the given value
+        for (let i = 1; i <= value; i++) {
+            //generate result with template string
+            let result = `${i} * ${value} = ${i*value}`;
+            //add as html element
+            target.innerHTML += '<p>' + result + '</p>';
+        }
+    }
+
+    //run on page load
+    multiplication(12);
+
+  </script>
+
+</body>
+
+</html>
