@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <p id="temp"></p>
+        <script>
+            let degCent = 20;
+            let message = "My converted temperature is ";
+            degFahren = 9 / 5 * degCent + 32;
+            message += degFahren;
+            message += "F.";
+            document.getElementById("temp").innerHTML = message;
+        </script>
+    </body>
+</html>
