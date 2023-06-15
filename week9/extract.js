@@ -20,7 +20,7 @@ function validateEmail(email) {
 //clears the output area then populates with holder values
 function pushHolder(){
     secArea.value = ''
-    secArea.value = holder.join(';')
+    secArea.value = holder.join(',')
 }
 
 //parses input from first area
