@@ -1,17 +1,55 @@
 <!DOCTYPE html>
+<!--IT161 Test File-->
 <html>
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Introduce Yourself</title>
-</head>
-
-<body>
-  <p>Introduce Yourself</p>
-  <script src="script.js"></script>
-
-
-</body>
-
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="robots" content="noindex, nofollow">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>IT161 Test Web Page by Samuel O'Neal</title>
+        <!-- Styles -->
+        <style>
+            img {
+                float: left;
+                margin: 1em;
+                max-width: 400px;
+            }
+            a {
+                color:black;
+            }
+            a:hover {
+                color:red;
+                background-color: yellow;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>
+                Samuel O'Neal IT161 Test Page
+            </h1>
+            <nav>
+                <a href="https://www.w3.org/" target="_blank">The W3C</a>
+                <a href="https://whatwg.org/" target="_blank">WHATWG Community</a>
+                <a href="https://w3schools.com/" target="_blank">W3Schools</a>
+                <a href="https://linkenin.com/learning/login">Linkedin Learning Library</a>
+            </nav>
+        </header>
+        <img src="images/me.jpg" alt="Picture of Sam">
+        <p>This is my test page for IT161!</p>
+        <footer>
+            <p><small>&copy; 2022 by
+                SAMUEL O'NEAL, All Rights Reserved ~
+                <a id="html-checker" href="#">Check HTML</a> ~
+                <a id="css-checker" href="#">Check CSS</a></small>
+           </p>
+          </footer>
+        </div>
+        <script>
+          //https://tinyurl.com/dynamic-html-checker
+          document.getElementById("html-checker").setAttribute("href","https://validator.w3.org/nu/?doc=" + location.href);
+          document.getElementById("css-checker").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+       </script>
+        </footer>
+    </body>
 </html>
